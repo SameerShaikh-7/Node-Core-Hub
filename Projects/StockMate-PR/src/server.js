@@ -2,7 +2,6 @@ const express = require('express');
 require('dotenv').config();
 const cors = require('cors');
 
-// 1. Import DB Configuration
 require('./config/db.config');
 
 const authRoutes = require('./routes/auth.route');
